@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from deta import Deta
-from localFile import key
-from localFile import base
+from localFile import key, base
+
 
 app = FastAPI()
 deta = Deta(key)
